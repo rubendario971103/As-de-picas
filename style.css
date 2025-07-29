@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+header {
+  background: #000c44;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  color: #d4af37;
+  margin: 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #eee;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.login-box, .admin-box {
+  max-width: 400px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+input, button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: #d4af37;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
