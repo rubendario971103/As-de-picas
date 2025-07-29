@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>As de Picas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>As de Picas</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="auth.html">Autenticación</a></li>
+        <li><a href="usuario.html">Mi cuenta</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="partidos">
+    <h2>Partidos Disponibles</h2>
+    <div class="partidos"></div>
+  </main>
+
+  <section class="boleta">
+    <h3>Boleta de Apuestas</h3>
+    <ul id="boleta-lista"></ul>
+    <p>Cuota Total: <span id="total-cuota">1.00</span></p>
+    <button onclick="realizarApuesta()">Apostar</button>
+  </section>
+
+  <footer>© 2025 As de Picas</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
