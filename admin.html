@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin - As de Picas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="admin-box">
+    <h2>Panel de Administración</h2>
+    <input type="email" id="adminEmail" placeholder="Correo del usuario">
+    <input type="number" id="points" placeholder="Puntos a sumar o restar">
+    <button onclick="updatePoints()">Actualizar Puntos</button>
+    <div id="result"></div>
+  </main>
+  <script src="firebase.js"></script>
+</body>
+</html>
